@@ -23,6 +23,6 @@ message Mobile {
 	string	ApplicationID = 13;
 	string	ApplicationVersion = 14;
 	string	FileName = 15;
-	string	MimeType 16;
-	bytes	ImageBytes;
+	string	MimeType = 16;
+	bytes	ImageBytes = 17;
 }
