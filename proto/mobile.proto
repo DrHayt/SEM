@@ -7,22 +7,22 @@ import "google/protobuf/timestamp.proto";
 import "google/protobuf/wrappers.proto";
 
 message Mobile {
-	int64   Version = 1;
-	string 	GUID = 2;
-	string 	Client = 3;
-	string 	LoanType = 4;
-	string  OrderNumber = 5;
-	string  Username = 6;
-	float   Latitude = 7;
-	float   Longitude = 7;
+	int64	 Version = 1;
+	string	GUID = 2;
+	string	Client = 3;
+	string	LoanType = 4;
+	string	OrderNumber = 5;
+	string	Username = 6;
+	float	 Latitude = 7;
+	float	 Longitude = 7;
 	string   DateTaken = 8; // UTC time.
 	string   DeviceModel = 9;
 	string   DeviceOS = 10;
 	string   DeviceOSVersion = 11;
-	string		Application = 12
-	string		ApplicationID = 13
-	string		ApplicationVersion = 14
-	string		FileName
-	string		MimeType
-	bytes		ImageBytes
+	string	Application = 12;
+	string	ApplicationID = 13;
+	string	ApplicationVersion = 14;
+	string	FileName = 15;
+	string	MimeType 16;
+	bytes	ImageBytes;
 }
